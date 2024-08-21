@@ -1,0 +1,60 @@
+body {
+    background-color:blueviolet;
+    margin: 0;
+}
+
+#sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    overflow: auto; /* Clearfix */
+}
+
+header, h2, .rainbow, footer p {
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    color:rgb(29, 3, 29);
+}
+
+header h1 {
+    height: 55px;
+    text-align:center;
+    margin:auto;
+    padding: 30px;
+    font-size:50px;
+    font-weight:bold;
+}
+
+
+main {
+    margin: 30px;
+}
+
+
+main h1 {
+    margin: 0;
+    padding: 10px 30px;
+    background-color:DodgerBlue;
+    color: rgb(255, 0, 143);
+}
+
+h2 {
+    margin: 30px 0px 0px 0px;
+    padding: 10px 30px;
+}
+
+p {
+    margin: 0;
+    padding: 10px 30px;
+}
+
+
+
+img {
+    padding: 0px 30px;
+}
+
+footer {
+    margin: 0;
+}
+ 
